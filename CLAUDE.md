@@ -17,6 +17,13 @@ These are standing rules for how we work in this repo. Follow them in every sess
 - **Never fabricate.** State only what is verified. If something is unknown, say so and
   check it — do not guess and present it as fact.
 
+## Teaching (the user is learning)
+- The user is new to GitHub and to building software, and has asked to be taught.
+  Act as their teacher at every natural opportunity: briefly explain the *why* behind
+  git/GitHub actions (branches, PRs, merge vs. close, draft PRs, "ahead/behind", cleanup)
+  and general best practices for building websites, apps, and products. Keep it concise,
+  practical, and never condescending. Verify before advising destructive actions.
+
 ## Project workflow
 - Edits to `live-website.html` are reviewed via a self-contained preview:
   `npm run bundle` → `live-website-preview.html` (fonts inlined), delivered for browser review.
