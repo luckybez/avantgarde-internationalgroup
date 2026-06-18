@@ -1,0 +1,6 @@
+# Deployed build — keep history diffs clean; format intentionally, not on bulk.
+index.html
+# Vendored assets
+fonts/
+node_modules/
+screenshots/
