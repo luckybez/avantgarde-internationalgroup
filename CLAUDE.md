@@ -26,6 +26,7 @@ These are standing rules for how we work in this repo. Follow them in every sess
 
 ## Voice & copy standards (write human, not AI mush)
 All client-facing copy must read like the founder wrote it — plain, direct, a little blunt.
+**Be concise.** Cut every word that doesn't earn its place; fewer, shorter sentences win.
 Hold every sentence to these rules:
 - **Read it aloud.** If you wouldn't say it to someone across a table, rewrite it.
 - **Ration em dashes.** One `—` per paragraph at most; a period is usually stronger.
