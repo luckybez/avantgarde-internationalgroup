@@ -269,23 +269,12 @@
         }
 
         .case-card {
-            display: flex;
-            align-items: center;
-            gap: 56px;
-            padding: 40px 48px;
+            padding: 36px 48px;
             border: 1px solid rgba(192, 138, 94, 0.2);
             border-radius: 8px;
             background-color: rgba(192, 138, 94, 0.03);
             cursor: pointer;
             transition: all 0.3s;
-        }
-
-        .case-card-head {
-            flex: 0 0 30%;
-        }
-
-        .case-card-body {
-            flex: 1;
         }
 
         .case-card:hover {
@@ -312,6 +301,7 @@
             font-size: 14px;
             color: #A8AFBB;
             line-height: 1.7;
+            max-width: 820px;
             margin-bottom: 25px;
         }
 
@@ -511,14 +501,7 @@
             }
 
             .case-card {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 20px;
                 padding: 30px;
-            }
-
-            .case-card-head {
-                flex-basis: auto;
             }
             
             .hero h1 {
@@ -756,44 +739,32 @@
                 
                 <div class="cases-grid">
                     <div class="case-card" onclick="navigate('case-2')">
-                        <div class="case-card-head">
-                            <div class="case-industry">Strategic Planning</div>
-                            <div class="case-title">A Philanthropist</div>
-                        </div>
-                        <div class="case-card-body">
-                            <div class="case-description">A philanthropist and founder at 72, on a global walkabout, racing to capture a lifetime of decisions before the window closes. The council travels with him now — wherever the walkabout goes.</div>
-                            <div class="case-detail">
-                                <span>Strategic Operations Council</span>
-                                <span>→</span>
-                            </div>
+                        <div class="case-industry">Strategic Planning</div>
+                        <div class="case-title">A Philanthropist</div>
+                        <div class="case-description">A philanthropist and founder at 72, on a global walkabout, racing to capture a lifetime of decisions before the window closes. The council travels with him now — wherever the walkabout goes.</div>
+                        <div class="case-detail">
+                            <span>Strategic Operations Council</span>
+                            <span>→</span>
                         </div>
                     </div>
 
                     <div class="case-card" onclick="navigate('case-1')">
-                        <div class="case-card-head">
-                            <div class="case-industry">Family & Development</div>
-                            <div class="case-title">A Father and His Son</div>
-                        </div>
-                        <div class="case-card-body">
-                            <div class="case-description">An economist by training — used to navigating complexity, yet facing the one challenge no framework had prepared him for: raising his autistic son. The council gave him what expertise alone could not.</div>
-                            <div class="case-detail">
-                                <span>Parenting & Development Council</span>
-                                <span>→</span>
-                            </div>
+                        <div class="case-industry">Family & Development</div>
+                        <div class="case-title">A Father and His Son</div>
+                        <div class="case-description">An economist by training — used to navigating complexity, yet facing the one challenge no framework had prepared him for: raising his autistic son. The council gave him what expertise alone could not.</div>
+                        <div class="case-detail">
+                            <span>Parenting & Development Council</span>
+                            <span>→</span>
                         </div>
                     </div>
 
                     <div class="case-card" onclick="navigate('case-0')">
-                        <div class="case-card-head">
-                            <div class="case-industry">Medical Decision-Making</div>
-                            <div class="case-title">A Retired Executive</div>
-                        </div>
-                        <div class="case-card-body">
-                            <div class="case-description">A former executive navigating prostate surgery. Multiple specialists. Conflicting recommendations. Permanent consequences. The council became the second opinion that synthesized them all.</div>
-                            <div class="case-detail">
-                                <span>Surgical Decision Council</span>
-                                <span>→</span>
-                            </div>
+                        <div class="case-industry">Medical Decision-Making</div>
+                        <div class="case-title">A Retired Executive</div>
+                        <div class="case-description">A former executive navigating prostate surgery. Multiple specialists. Conflicting recommendations. Permanent consequences. The council became the second opinion that synthesized them all.</div>
+                        <div class="case-detail">
+                            <span>Surgical Decision Council</span>
+                            <span>→</span>
                         </div>
                     </div>
                 </div>
