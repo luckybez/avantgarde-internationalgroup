@@ -184,6 +184,12 @@
             border: 1px solid rgba(192, 138, 94, 0.2);
             border-radius: 8px;
             background-color: rgba(192, 138, 94, 0.03);
+            transition: all 0.3s;
+        }
+
+        .outcome-card:hover {
+            border-color: #C08A5E;
+            background-color: rgba(192, 138, 94, 0.08);
         }
 
         .outcome-label {
@@ -239,13 +245,20 @@
         .architecture-layers {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 50px;
+            gap: 24px;
         }
 
         .layer {
-            padding: 40px;
-            border-left: 3px solid #C08A5E;
-            background-color: rgba(192, 138, 94, 0.05);
+            padding: 36px 48px;
+            border: 1px solid rgba(192, 138, 94, 0.2);
+            border-radius: 8px;
+            background-color: rgba(192, 138, 94, 0.03);
+            transition: all 0.3s;
+        }
+
+        .layer:hover {
+            border-color: #C08A5E;
+            background-color: rgba(192, 138, 94, 0.08);
         }
 
         .layer-title {
@@ -500,10 +513,13 @@
                 grid-template-columns: 1fr;
             }
 
-            .case-card {
-                padding: 30px;
+            .case-card,
+            .layer,
+            .faq-item,
+            .discovery-what-happens {
+                padding: 28px;
             }
-            
+
             .hero h1 {
                 font-size: 42px;
             }
@@ -578,7 +594,17 @@
         }
 
         .discovery-what-happens {
-            margin: 0 0 60px 0;
+            margin: 0 0 24px 0;
+            padding: 36px 48px;
+            border: 1px solid rgba(192, 138, 94, 0.2);
+            border-radius: 8px;
+            background-color: rgba(192, 138, 94, 0.03);
+            transition: all 0.3s;
+        }
+
+        .discovery-what-happens:hover {
+            border-color: #C08A5E;
+            background-color: rgba(192, 138, 94, 0.08);
         }
 
         .discovery-what-happens h3 {
@@ -598,6 +624,9 @@
 
         .discovery-faq {
             margin: 0 0 60px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
         }
 
         .discovery-faq h3 {
@@ -608,12 +637,16 @@
         }
 
         .faq-item {
-            border-bottom: 0.5px solid rgba(192, 138, 94, 0.3);
-            padding: 20px 0;
+            border: 1px solid rgba(192, 138, 94, 0.2);
+            border-radius: 8px;
+            background-color: rgba(192, 138, 94, 0.03);
+            padding: 28px 32px;
+            transition: all 0.3s;
         }
 
-        .faq-item:first-of-type {
-            border-top: 0.5px solid rgba(192, 138, 94, 0.3);
+        .faq-item:hover {
+            border-color: #C08A5E;
+            background-color: rgba(192, 138, 94, 0.08);
         }
 
         .faq-line {
