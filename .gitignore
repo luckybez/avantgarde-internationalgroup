@@ -3,3 +3,5 @@ screenshots/
 live-website-preview.html
 *.log
 .DS_Store
+drafts/
+home-*.html
